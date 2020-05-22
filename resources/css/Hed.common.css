@@ -1,0 +1,66 @@
+text {
+    font: 10px "Roboto";
+    font-weight: 500;
+    fill: grey;
+  }
+  
+  text:hover,
+  .node--source,
+  .node--target {
+    font-weight: bold;
+  }
+  
+  text:hover {
+    fill: black;
+  }
+  
+  .node--source {
+    fill: green !important;
+  }
+  
+  .node--target {
+    fill: red !important;
+  }
+  
+  /*
+  path {
+    fill: none;
+    stroke: steelblue; 
+    stroke-width: 1px;
+    opacity: .8;
+  }
+  */
+  
+  .link--source, /*two hyphens [emotionless]*/
+  .link--target {
+    stroke-width: 2px;
+    opacity: 1;
+  }
+  
+  .link--source {
+    stroke: red;
+  }
+  
+  .link--target {
+    stroke: green;
+  }
+
+  .link--selected {
+    stroke: darkorange;
+  }
+  .node--selected1 {
+    fill: red !important;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  .node--selected2 {
+    fill: darkmagenta !important;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+/* layout style */
+#root {
+  border: 1px solid #C6C6C6;
+}  
